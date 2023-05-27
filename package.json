@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.2.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "dev": "tsnd --respawn --transpile-only --cls ./src/index.ts",
+    "build": "tsc",
+    "start": "node ./build/index.js"
+  }
+}
